@@ -1,0 +1,27 @@
+/*Designed by Venkatesh Mogili,N130010*/
+.lis:hover{transition:0.5s;background-color:purple;}
+.my{font-size:1.3em;color:white;}
+.mym{font-size:2em;color:gray;}
+.mym:hover{color:#FF4500;transition:0.5s;}
+.mym:active{font-size:2em;color:#FF4500;}
+.mym:focus{font-size:2em;color:#FF4500;background-color:whitesmoke;}
+.list-group-item{border:0px;color:black;transition:0.8s;}
+.list-group-item:hover{border:0px;background-color:rgba(0,0,255,0.4);transition:0.5s;cursor:pointer;}
+#menu{color:white;}
+.navbar-brand:hover{transition:0.8s;-webkit-animation:bb 1s 1;animation:bb 1s 1;}
+@-webkit-keyframes bb{
+	50%{transition:0.8s;filter:blur(1px);-o-filter:blur(1px);-moz-filter:blur(1px);-webkit-filter:blur(1px);}
+}
+@-moz-keyframes bb{
+	50%{transition:0.8s;filter:blur(1px);-o-filter:blur(1px);-moz-filter:blur(1px);-webkit-filter:blur(1px);}
+}
+@keyframes bb{
+	50%{transition:0.8s;filter:blur(1px);-o-filter:blur(1px);-moz-filter:blur(1px);-webkit-filter:blur(1px);}
+}
+.total4{background-color:whitesmoke;position:fixed;bottom:0px;left:0px;width:100%;height:50px;box-shadow:1px 2px 20px black;}
+.total2{background-color:lightgray;margin-top:10px;padding:30px;height:100%;}
+audio{width:100%;}
+#songg:hover{color:#FF4500;transition:0.5s;filter:blur(1px);-webkit-filter:blur(1px);-moz-filter:blur(1px);-o-filter:blur(1px);}
+.loadbutton{text-align:center;list-style: none;}
+.audios_list{list-style:none;}
+.loadmoreaudios{color:#FFF;border-radius:5px;width:20%;border:0px;height:40px;font-size:18px;background:#42B8DD;outline:0;}
